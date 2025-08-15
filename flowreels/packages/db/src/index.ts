@@ -1,2 +1,3 @@
-export * from "drizzle-orm/sql";
-export { alias } from "drizzle-orm/pg-core";
+import { PrismaClient } from "@prisma/client";
+
+export const db = new PrismaClient();

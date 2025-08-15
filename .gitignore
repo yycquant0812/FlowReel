@@ -38,6 +38,7 @@ Thumbs.db
 
 # Project-specific ignores
 /.bmad-core/
+/.bmad-infrastructure-devops/
 /.gemini/
 /docs/
 /web-bundles/

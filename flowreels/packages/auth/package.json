@@ -19,12 +19,10 @@
   },
   "dependencies": {
     "@acme/db": "workspace:*",
-    "@better-auth/expo": "1.2.12",
+    "@auth/prisma-adapter": "^2.4.1",
     "@t3-oss/env-nextjs": "^0.13.6",
-    "better-auth": "1.2.12",
-    "next": "^15.3.3",
+    "next-auth": "^4.24.7",
     "react": "catalog:react19",
-    "react-dom": "catalog:react19",
     "zod": "catalog:"
   },
   "devDependencies": {

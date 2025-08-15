@@ -31,6 +31,7 @@ export const env = createEnv({
    */
   experimental__runtimeEnv: {
     NODE_ENV: process.env.NODE_ENV,
+    POSTGRES_URL: process.env.POSTGRES_URL,
 
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
   },
